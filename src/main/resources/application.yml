@@ -19,6 +19,7 @@ mybatis:
   #实体类所在包名
   type-aliases-package: com.ithiema.pojo
 #通用mapper配置
+#大撒大撒
 
 mapper:
   #公用接口类路径
