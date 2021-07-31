@@ -1,0 +1,27 @@
+
+
+
+
+#端口配置
+server:
+  port: 8081
+#jdbc配置
+spring:
+  application:
+    name: itheima
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mybatis_day?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 1234
+#mybatis配置
+mybatis:
+  #实体类所在包名
+  type-aliases-package: com.ithiema.pojo
+#通用mapper配置
+
+mapper:
+  #公用接口类路径
+  mappers: com.ithiema.dao.UserDao
+  identity: MYSQL
+  not-empty: false
